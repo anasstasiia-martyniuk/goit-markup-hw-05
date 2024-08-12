@@ -574,8 +574,8 @@ header .container {
     fill: #2E2F42;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.close-button-modal > svg:hover,
-.close-button-modal > svg:focus {
+.close-button-modal:focus > .modal-icon,
+.close-button-modal:hover > .modal-icon {
     fill: #ffffff;
 }
 .modal-text {
